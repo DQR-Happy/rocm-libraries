@@ -1479,6 +1479,7 @@
     'StaggerU',
     'StaggerUMapping',
     'StaggerUStride',
+    'StinkyTofuRegisterAllocation',
     'StorePriorityOpt',
     'StoreRemapVectorWidth',
     'StoreSyncOpt',
@@ -2582,6 +2583,15 @@
         16,
       ]),
       'len': 10,
+      'type': 'list',
+    }),
+    'StinkyTofuRegisterAllocation': dict({
+      'head': list([
+        0,
+        1,
+        2,
+      ]),
+      'len': 4,
       'type': 'list',
     }),
     'StorePriorityOpt': dict({
