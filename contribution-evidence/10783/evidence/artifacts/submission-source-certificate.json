@@ -1,0 +1,49 @@
+{
+  "tested_base": "930b79499cb88cd76971c0c2002b374112809abb",
+  "submission_base": "681bc9edc37e8ceceb1c8227d8e63fc2ea9f5243",
+  "production_changes_unchanged": true,
+  "production_files": [
+    {
+      "path": "shared/tensile/Tensile/Source/lib/include/Tensile/PropertyMatching.hpp",
+      "sha256": "0c8b7a0bdad5706bc144916ae8263e57a990dc61a53ace98626452466474e063"
+    },
+    {
+      "path": "shared/tensile/HostLibraryTests/MultipleSolutionsPerSize_test.cpp",
+      "sha256": "b75d9bffa8643adc2b24bbc7f6d0d8bc5de99a0d344412d5cf1f97f3f5e5902f"
+    },
+    {
+      "path": "projects/rocblas/library/src/blas3/Tensile/Logic/asm_full/navi31/navi31_Cijk_Alik_Bljk_BBS_BH_Equality.yaml",
+      "sha256": "1b9cf6af4722a41dccf7a349248ea97ebd297a6cc9d065d8c26f6c0f5bc032c2"
+    },
+    {
+      "path": "projects/rocblas/library/src/blas3/Tensile/Logic/asm_full/navi31/navi31_Cijk_Alik_Bljk_BBS_BH_GB_Equality.yaml",
+      "sha256": "d6d93599d50316d06a199f9a314980b5011bb42290c03abc3671e3dd4a97e4b7"
+    },
+    {
+      "path": "projects/rocblas/library/src/blas3/Tensile/Logic/asm_full/navi31/navi31_Cijk_Ailk_Bljk_BBS_BH_Equality.yaml",
+      "sha256": "99fdbeeb8ad5970625cd533c80c039593d7433a3c6421b3c3ef198ba8ee5dddc"
+    },
+    {
+      "path": "projects/rocblas/library/src/blas3/Tensile/Logic/asm_full/navi31/navi31_Cijk_Ailk_Bljk_BBS_BH_GB_Equality.yaml",
+      "sha256": "732f4d8d3d1601bb18d244255b355aa2af8c1d1801b600b26fadf41660396151"
+    }
+  ],
+  "fixture_files": [
+    {
+      "path": "shared/tensile/HostLibraryTests/hip/CMakeLists.txt",
+      "sha256": "c5cbd7a8a21030d14257294294785a1375750d299d5391517dec8ec3b1e1e7a6"
+    },
+    {
+      "path": "shared/tensile/HostLibraryTests/hip/HipSolutionAdapter_test.cpp",
+      "sha256": "c3371dd42b907c1f8c9ab35aa3dcce2e5cb2ad2eb74a224c68165b84f2aab455"
+    },
+    {
+      "path": "shared/tensile/HostLibraryTests/configs/beta_only/hip_Cijk_Ailk_Bjlk_SB.yaml",
+      "sha256": "0506bbc064e22be49b5f522526cd94c8424efbe841947b8ab8460e8baa89e2d9"
+    },
+    {
+      "path": "shared/tensile/next-cmake/tests/hip/CMakeLists.txt",
+      "sha256": "7a8566dea9d319baeddd3ca27930ffd96c544e44d6f0bb27b66d89a9ca98e14a"
+    }
+  ]
+}

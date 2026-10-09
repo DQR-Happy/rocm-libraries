@@ -1,0 +1,29 @@
+{
+  "command": [
+    "tox",
+    "--workdir",
+    "/mnt/data/rocm-10783/tox",
+    "run",
+    "-m",
+    "prepr",
+    "--result-json",
+    "/mnt/data/rocm-10783/results/submission-prepr/tox-result.json",
+    "-x",
+    "testenv:hostlibtest.allowlist_externals=/bin/bash",
+    "-x",
+    "testenv:hostlibtest.commands=/bin/bash /mnt/data/rocm-10783/environment/submission-hostlibtest.sh",
+    "-x",
+    "testenv:ci.commands=invoke build-client {env:TENSILE_CLIENT_ARGS}\npy.test {toxinidir}/Tensile/Tests {[vars]options} -m pre_checkin --numprocesses=4 --global-parameters=CpuThreads=2 --basetemp=/mnt/data/rocm-10783/submission-ci-temp --junitxml=/mnt/data/rocm-10783/results/submission-prepr/pre-checkin.xml",
+    "-x",
+    "testenv:unittest.commands=coverage erase\npytest {toxinidir}/Tensile/Tests {[vars]options} -m unit --cov-append --cov=Tensile --cov-report=term --junitxml=/mnt/data/rocm-10783/results/submission-prepr/unit.xml",
+    "-x",
+    "testenv:ci.pass_env+=OMP_THREAD_LIMIT"
+  ],
+  "cwd": "/mnt/data/rocm-10783/source/shared/tensile",
+  "environment": {
+    "TENSILE_CLIENT_ARGS": "--gpu-targets=gfx1100 --no-build",
+    "OMP_THREAD_LIMIT": "8"
+  },
+  "override_reason": "Bound single-GPU build resources, select gfx1100, retain XML, and actually execute the full Debug host suite; the default hostlibtest tox command only builds and omits --run.",
+  "test_filters_changed": false
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "path": "benchmarks/final-batch-strides-pair/comparison.json",
+    "bytes": 35393,
+    "sha256": "55afbf420f538dcb4302b7d692721ecf023f085e8ba289ed4a03c9ddb3a01a30"
+  },
+  {
+    "path": "benchmarks/final-batch-strides-pair/input.yaml",
+    "bytes": 21570,
+    "sha256": "5985337ea6a65f2d49cd8a31bcedfba781590ee7b7fe03e810b1f0ed7543e0a3"
+  },
+  {
+    "path": "benchmarks/final-batched-pair/comparison.json",
+    "bytes": 57846,
+    "sha256": "67020df6bdd429530d786b1c2080d456c6519fbc619779a2dff4991af55d5130"
+  },
+  {
+    "path": "benchmarks/final-batched-pair/input.yaml",
+    "bytes": 35653,
+    "sha256": "cace6b82f89e86c9daa79443d5304b3ecd8cc62954efe2b49b051c5d9db1d705"
+  },
+  {
+    "path": "benchmarks/final-catchment-pair/comparison.json",
+    "bytes": 127972,
+    "sha256": "7d4c41d68d81e0ff8310d8fdcc344128eee3030343176696ebdc747aeba6a30a"
+  },
+  {
+    "path": "benchmarks/final-catchment-pair/input.yaml",
+    "bytes": 78665,
+    "sha256": "99c4bafb02dee3fbb649f52ef61586dc37c0a7cec99481f955d9d0bebc83e6dd"
+  },
+  {
+    "path": "benchmarks/final-grid-pair/comparison.json",
+    "bytes": 900656,
+    "sha256": "4453c56714b759e0ff63443f38da92ad430a735f9396d8d76efa62914c6400aa"
+  },
+  {
+    "path": "benchmarks/final-grid-pair/input.yaml",
+    "bytes": 552329,
+    "sha256": "4bfe8fbb415049face6ed34c27a55b3e586bcb3013f9cca8b79fcac77cc32089"
+  },
+  {
+    "path": "benchmarks/final-grid-recheck/comparison.json",
+    "bytes": 2269,
+    "sha256": "5b8d2b94eb203c5131ca6afda5470f2584ba930ee90aca517f7e53921fa9dbc3"
+  },
+  {
+    "path": "benchmarks/final-grid-recheck/input.yaml",
+    "bytes": 1077,
+    "sha256": "65b27235053862208c3d05b8ebf43ea0a4a48c8c02f741160765844c64382fb6"
+  },
+  {
+    "path": "benchmarks/stable-affected-hot-pair/comparison.json",
+    "bytes": 9872,
+    "sha256": "59868f86960699f8f17802f7fdba1234bc9c52b32d6453ffa93adf6943f9456f"
+  },
+  {
+    "path": "benchmarks/stable-affected-hot-pair/input.yaml",
+    "bytes": 5587,
+    "sha256": "2d528f1c0c55426056eeb7f7b72d8ddd35e7c1e44b0163b02fe26e4f91c56d6f"
+  },
+  {
+    "path": "benchmarks/stable-affected-rotating-pair/comparison.json",
+    "bytes": 9879,
+    "sha256": "82ad160408439ab6ed4730a7ce0a8575edc44f23dc32dce1f9472f4740bc3ef8"
+  },
+  {
+    "path": "benchmarks/stable-affected-rotating-pair/input.yaml",
+    "bytes": 5667,
+    "sha256": "6472167a41b27007737e89a46977a3fa38569751c2213ee9bbb2ffe86c529ceb"
+  },
+  {
+    "path": "benchmarks/stable-squares-hot-pair/comparison.json",
+    "bytes": 28626,
+    "sha256": "8d5f01a6a257c2d6ff967e36c736bf6d490a74be750cdb5a37a7334619302ee1"
+  },
+  {
+    "path": "benchmarks/stable-squares-hot-pair/input.yaml",
+    "bytes": 17217,
+    "sha256": "65f80851154fbcfc386b42b9aae588581e08cc6a38c113c692b64d173adfd55b"
+  },
+  {
+    "path": "benchmarks/stable-squares-rotating-pair/comparison.json",
+    "bytes": 28649,
+    "sha256": "3f611ab609cde5b64a73b663f1a628907340b36679d89481715c46550ca201c2"
+  },
+  {
+    "path": "benchmarks/stable-squares-rotating-pair/input.yaml",
+    "bytes": 17473,
+    "sha256": "e53e6b3bd58d90f18d1e5edbf4b7fbf8c1ff6efbd4fea598ac0f36944a004e89"
+  },
+  {
+    "path": "benchmarks/stable-strided-one-pair/comparison.json",
+    "bytes": 36367,
+    "sha256": "8983356b7cb54d8e083a27c213b3a3a6833b74eedefe8ab395a67583970f0d03"
+  },
+  {
+    "path": "benchmarks/stable-strided-one-pair/input.yaml",
+    "bytes": 23682,
+    "sha256": "bc1397013fc903311122b70ca6dc65079fa9a11f2d41f9309792aff2a6c934cd"
+  },
+  {
+    "path": "benchmarks/stable-strides-pair/comparison.json",
+    "bytes": 21545,
+    "sha256": "9834dd6fb30a1f1a1d9072ade0490416d884a204c9cf122a2c53810183e369ec"
+  },
+  {
+    "path": "benchmarks/stable-strides-pair/input.yaml",
+    "bytes": 13104,
+    "sha256": "036564d09477f68113cbf32cd1856e44c77b7c5b655e902827b497322c7b6fb5"
+  },
+  {
+    "path": "measurements.csv",
+    "bytes": 341688,
+    "sha256": "b58465f3fe88019edf158fa9fb4fb3aa8a11bf22b54c73b61d2767dd9fe7f01d"
+  },
+  {
+    "path": "selected-square-table.md",
+    "bytes": 474,
+    "sha256": "53a77a587ff7a83b56d7283aa0c4ee626d13a07848f88b07a224855a944e6ff7"
+  },
+  {
+    "path": "stable-summary.json",
+    "bytes": 442609,
+    "sha256": "ef6de59bcd13222f54ebfd046019b886447d536f844c24c1f978848d601b0720"
+  },
+  {
+    "path": "stable-transition.json",
+    "bytes": 287,
+    "sha256": "a3aef12d086a73c4ac813bcf62c475f96af7ca0489f665a437a6b633b426965a"
+  }
+]

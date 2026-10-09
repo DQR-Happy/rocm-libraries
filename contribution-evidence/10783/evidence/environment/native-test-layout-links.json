@@ -1,0 +1,162 @@
+[
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/Cijk_Ailk_Bjlk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/gfx1100/Cijk_Ailk_Bjlk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "sha256": "0e2db19a2377fc67695eb3fe61fa5f1e4d5bbce070864dd7e20b09a8f2f2d9e8"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/Cijk_Ailk_Bljk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/gfx1100/Cijk_Ailk_Bljk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "sha256": "71c610e4a5234890d9feda3f193dff202b500fafa2163b6b4121cee05ed9d566"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/Cijk_Alik_Bjlk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/gfx1100/Cijk_Alik_Bjlk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "sha256": "c756b15666ff959f191038a214a5a494a4a3a7174abb9000832d57917fbeeba9"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/Cijk_Alik_Bljk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/gfx1100/Cijk_Alik_Bljk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "sha256": "948e79b40c37997c2b741edf6861c31a37d4261d2e358cdb323fafbddc9a0617"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/TensileLibrary.dat",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite/library/gfx1100/TensileLibrary.dat",
+    "sha256": "535fed08b1ce89781551ada18f7adb47a1023ddc952c2accca9a903ac0f71e9a"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/Cijk_Ailk_Bjlk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/gfx1100/Cijk_Ailk_Bjlk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "sha256": "0e2db19a2377fc67695eb3fe61fa5f1e4d5bbce070864dd7e20b09a8f2f2d9e8"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/Cijk_Ailk_Bljk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/gfx1100/Cijk_Ailk_Bljk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "sha256": "71c610e4a5234890d9feda3f193dff202b500fafa2163b6b4121cee05ed9d566"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/Cijk_Alik_Bjlk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/gfx1100/Cijk_Alik_Bjlk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "sha256": "c756b15666ff959f191038a214a5a494a4a3a7174abb9000832d57917fbeeba9"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/Cijk_Alik_Bljk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/gfx1100/Cijk_Alik_Bljk_SB_MT64x64x8_SN_K1_gfx1100.co",
+    "sha256": "948e79b40c37997c2b741edf6861c31a37d4261d2e358cdb323fafbddc9a0617"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/TensileLibrary.dat",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_2/library/gfx1100/TensileLibrary.dat",
+    "sha256": "535fed08b1ce89781551ada18f7adb47a1023ddc952c2accca9a903ac0f71e9a"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/Cijk_Ailk_Bjlk_SB_MT64x64x8_SN_ISA000_K1_KLS_MMFSC.so-000-gfx1100.hsaco",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/Cijk_Ailk_Bjlk_SB_MT64x64x8_SN_ISA000_K1_KLS_MMFSC.so-000-gfx1100.hsaco",
+    "sha256": "3fab3bec08b81eca583225131a781c29dea082840ded995de24147769245734f"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/Cijk_Ailk_Bjlk_SB_MT64x64x8_SN_ISA1100_K1_KLA_MMFGLC_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/Cijk_Ailk_Bjlk_SB_MT64x64x8_SN_ISA1100_K1_KLA_MMFGLC_gfx1100.co",
+    "sha256": "45b8ddc665542f839d0b7d9390e765f550fc4517c637a2e43e1afdca3006d075"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/Cijk_Ailk_Bljk_SB_MT64x64x8_SN_ISA000_K1_KLS_MMFSC.so-000-gfx1100.hsaco",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/Cijk_Ailk_Bljk_SB_MT64x64x8_SN_ISA000_K1_KLS_MMFSC.so-000-gfx1100.hsaco",
+    "sha256": "772bac14ed7ddb1bd06401b4e06b6948486587770d0d27d324fdbef9cb0acab0"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/Cijk_Ailk_Bljk_SB_MT64x64x8_SN_ISA1100_K1_KLA_MMFGLC_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/Cijk_Ailk_Bljk_SB_MT64x64x8_SN_ISA1100_K1_KLA_MMFGLC_gfx1100.co",
+    "sha256": "ea50a3fd1a5c94014d83168410a7b34a9e3fd56673717c8e8a1137b32dec1b42"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/Cijk_Alik_Bjlk_SB_MT64x64x8_SN_ISA000_K1_KLS_MMFSC.so-000-gfx1100.hsaco",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/Cijk_Alik_Bjlk_SB_MT64x64x8_SN_ISA000_K1_KLS_MMFSC.so-000-gfx1100.hsaco",
+    "sha256": "887f4247f4aee0e95b8a98a4b3835d73fcd14ce81da13d56bc7e3e321f6bd66d"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/Cijk_Alik_Bjlk_SB_MT64x64x8_SN_ISA1100_K1_KLA_MMFGLC_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/Cijk_Alik_Bjlk_SB_MT64x64x8_SN_ISA1100_K1_KLA_MMFGLC_gfx1100.co",
+    "sha256": "4e04f47d742cdab822ee9c03054c7b3ed8aed91e9460e258b1312f5a418119f1"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/Cijk_Alik_Bljk_SB_MT64x64x8_SN_ISA000_K1_KLS_MMFSC.so-000-gfx1100.hsaco",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/Cijk_Alik_Bljk_SB_MT64x64x8_SN_ISA000_K1_KLS_MMFSC.so-000-gfx1100.hsaco",
+    "sha256": "3276aec043652916e7f3318684a88bd86ec1fae70e592d790562b43200313f5b"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/Cijk_Alik_Bljk_SB_MT64x64x8_SN_ISA1100_K1_KLA_MMFGLC_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/Cijk_Alik_Bljk_SB_MT64x64x8_SN_ISA1100_K1_KLA_MMFGLC_gfx1100.co",
+    "sha256": "44d2aede3c1acbfef44ea441e118e2a55c7ed93475d9e6ecf29a327ba11b80d1"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/TensileLibrary.dat",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_kernels_lite_mixed/library/gfx1100/TensileLibrary.dat",
+    "sha256": "f65d20f9a8ea5bfd531497663a2309fb1f0ca042e543de88a89c335888a634d0"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Ailk_Bjlk_SB_MT128x64x16_SE_K1_TT8_4_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Ailk_Bjlk_SB_MT128x64x16_SE_K1_TT8_4_gfx1100.co",
+    "sha256": "62adc41931b38ee1b4553d2c23a08fd183ae57509bca7e8562bc26d1a54d93df"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Ailk_Bjlk_SB_MT64x128x16_SE_K1_TT4_8_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Ailk_Bjlk_SB_MT64x128x16_SE_K1_TT4_8_gfx1100.co",
+    "sha256": "b2208bfa5fdb003580a910b88a1ffbc0890fbae37453b25f884fa459d2010abc"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Ailk_Bjlk_SB_MT64x64x16_SE_K1_TT4_4_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Ailk_Bjlk_SB_MT64x64x16_SE_K1_TT4_4_gfx1100.co",
+    "sha256": "aa2f6a2a1bce015c580020b8bc93d78d05c210a9c647040a63c054a0b216a4eb"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Ailk_Bljk_SB_MT128x64x16_SE_K1_TT8_4_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Ailk_Bljk_SB_MT128x64x16_SE_K1_TT8_4_gfx1100.co",
+    "sha256": "d408d9af19745e7a007c557a940b4b1a8d59f04d0edccef55141eb4470a47276"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Ailk_Bljk_SB_MT64x128x16_SE_K1_TT4_8_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Ailk_Bljk_SB_MT64x128x16_SE_K1_TT4_8_gfx1100.co",
+    "sha256": "79ac9da1d3dcc779484a15ab04fbedd4261f766dbe8c8196c685935545ce3f75"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Ailk_Bljk_SB_MT64x64x16_SE_K1_TT4_4_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Ailk_Bljk_SB_MT64x64x16_SE_K1_TT4_4_gfx1100.co",
+    "sha256": "ff18fe49df4df8e94c28fe52d1e9bd105c436fdddb77825b9b526539cd30a370"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Alik_Bjlk_SB_MT128x64x16_SE_K1_TT8_4_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Alik_Bjlk_SB_MT128x64x16_SE_K1_TT8_4_gfx1100.co",
+    "sha256": "3eb4cab9c0913c5e9c66a8c0f7d97ff2476e360877ef69d4d53b2c564f0a562a"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Alik_Bjlk_SB_MT64x128x16_SE_K1_TT4_8_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Alik_Bjlk_SB_MT64x128x16_SE_K1_TT4_8_gfx1100.co",
+    "sha256": "a8046e7e01a5dd0c1dd6319193f9317769f3e48c19bf3862fb91a950e2c03944"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Alik_Bjlk_SB_MT64x64x16_SE_K1_TT4_4_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Alik_Bjlk_SB_MT64x64x16_SE_K1_TT4_4_gfx1100.co",
+    "sha256": "781b0ee425647aba8cf3946488235e1f835f82410a6fb54c18e436a38f1ed74d"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Alik_Bljk_SB_MT128x64x16_SE_K1_TT8_4_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Alik_Bljk_SB_MT128x64x16_SE_K1_TT8_4_gfx1100.co",
+    "sha256": "e2cb358184c38faee1fffc97aac988753838efa17753c682f11dafd2719fe781"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Alik_Bljk_SB_MT64x128x16_SE_K1_TT4_8_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Alik_Bljk_SB_MT64x128x16_SE_K1_TT4_8_gfx1100.co",
+    "sha256": "84007ebfd86fd0c30e9e0555fffd9a425a1cf87291ebfc6a7728ef28918b215d"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/Cijk_Alik_Bljk_SB_MT64x64x16_SE_K1_TT4_4_gfx1100.co",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/Cijk_Alik_Bljk_SB_MT64x64x16_SE_K1_TT4_4_gfx1100.co",
+    "sha256": "a090708e6afc8e9ea3865423f8f0548f07864d8b6948ed8a90e90724eabdd405"
+  },
+  {
+    "link": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/TensileLibrary.dat",
+    "target": "/mnt/data/rocm-10783/build-equality-tests-gfx1100/data/test_tile_aware_selection/library/gfx1100/TensileLibrary.dat",
+    "sha256": "2978f86deceef52b4d8a0eafa6535564d73a8f0a7d6076dad6ffaf1dda3a5284"
+  }
+]

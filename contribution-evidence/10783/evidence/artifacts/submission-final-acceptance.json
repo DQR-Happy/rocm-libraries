@@ -1,0 +1,411 @@
+{
+  "checked_at": "2026-10-09T15:04:30.365818+00:00",
+  "complete_and_successful": true,
+  "source_commit": "fee38d4d5cad3d43dd8270378cb5e561cd0758a4",
+  "base_commit": "6d8061a84c301acc95c01a529ff1bc00133130f6",
+  "all_ten_source_files_match": true,
+  "tox_environments": {
+    "ci": [
+      {
+        "command": [
+          "/mnt/data/rocm-10783/tox/ci/bin/invoke",
+          "build-client",
+          "--gpu-targets=gfx1100",
+          "--no-build"
+        ],
+        "retcode": 0,
+        "elapsed": 0.2403709627687931
+      },
+      {
+        "command": [
+          "/mnt/data/rocm-10783/tox/ci/bin/py.test",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Tests",
+          "--verbose",
+          "--basetemp=/mnt/data/rocm-10783/tox/ci/tmp",
+          "--color=yes",
+          "--numprocesses=4",
+          "--prebuilt-client=/mnt/data/rocm-10783/source/shared/tensile/build/client/tensile-client",
+          "-m",
+          "pre_checkin",
+          "--numprocesses=4",
+          "--global-parameters=CpuThreads=2",
+          "--basetemp=/mnt/data/rocm-10783/submission-ci-temp",
+          "--junitxml=/mnt/data/rocm-10783/results/submission-prepr/pre-checkin.xml"
+        ],
+        "retcode": 0,
+        "elapsed": 3398.4088116772473
+      }
+    ],
+    "format": [
+      {
+        "command": [
+          "/mnt/data/rocm-10783/tox/format/bin/black",
+          "--line-length=100",
+          "/mnt/data/rocm-10783/source/shared/tensile/docs/",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Parallel.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/TensileCreateLibrary.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/TensileCreateLib/",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/BuildCommands/",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Utilities/Toolchain.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Tests/unit/test_TensileCreateLibrary.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Tests/unit/test_KernelFileContext.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Tests/unit/test_AsmRegisterPool.py"
+        ],
+        "retcode": 0,
+        "elapsed": 0.11749297566711903
+      }
+    ],
+    "hostlibtest": [
+      {
+        "command": [
+          "/bin/bash",
+          "/mnt/data/rocm-10783/environment/submission-hostlibtest.sh"
+        ],
+        "retcode": 0,
+        "elapsed": 2145.831962445751
+      }
+    ],
+    "isort": [
+      {
+        "command": [
+          "/mnt/data/rocm-10783/tox/isort/bin/isort",
+          "--profile=black",
+          "/mnt/data/rocm-10783/source/shared/tensile/docs/",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Parallel.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/TensileCreateLibrary.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/TensileCreateLib/",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/BuildCommands/",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Utilities/Toolchain.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Tests/unit/test_TensileCreateLibrary.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Tests/unit/test_KernelFileContext.py",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Tests/unit/test_AsmRegisterPool.py"
+        ],
+        "retcode": 0,
+        "elapsed": 0.10080667026340961
+      }
+    ],
+    "lint": [
+      {
+        "command": [
+          "/mnt/data/rocm-10783/tox/lint/bin/flake8",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile"
+        ],
+        "retcode": 0,
+        "elapsed": 2.601504698395729
+      }
+    ],
+    "security": [
+      {
+        "command": [
+          "/mnt/data/rocm-10783/tox/security/bin/bandit",
+          "-r",
+          "-t",
+          "B506",
+          "--exclude",
+          "*/build/*,*/dist/*,*/_skbuild/*",
+          "/mnt/data/rocm-10783/source/shared/tensile"
+        ],
+        "retcode": 0,
+        "elapsed": 3.824995866045356
+      }
+    ],
+    "unittest": [
+      {
+        "command": [
+          "/mnt/data/rocm-10783/tox/unittest/bin/coverage",
+          "erase"
+        ],
+        "retcode": 0,
+        "elapsed": 0.06457574479281902
+      },
+      {
+        "command": [
+          "/mnt/data/rocm-10783/tox/unittest/bin/pytest",
+          "/mnt/data/rocm-10783/source/shared/tensile/Tensile/Tests",
+          "--verbose",
+          "--basetemp=/mnt/data/rocm-10783/tox/unittest/tmp",
+          "--color=yes",
+          "--numprocesses=4",
+          "--prebuilt-client=/mnt/data/rocm-10783/source/shared/tensile/build/client/tensile-client",
+          "-m",
+          "unit",
+          "--cov-append",
+          "--cov=Tensile",
+          "--cov-report=term",
+          "--junitxml=/mnt/data/rocm-10783/results/submission-prepr/unit.xml"
+        ],
+        "retcode": 0,
+        "elapsed": 206.5830557588488
+      }
+    ]
+  },
+  "additional_tox_journals": [
+    ".pkg",
+    "docs"
+  ],
+  "pre_checkin": {
+    "tests": 142,
+    "passed": 105,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 37,
+    "skip_details": {
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/igemm_hpa_asm_nn.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/preload_kernel_arguments_always_half.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/denorm/mfma/dgemm_denorm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/denorm/mfma/sgemm_denorm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_hgemm_f32_alphabeta_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/sgemm_split_lds.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/wider_local_read.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/dgemm_alpha1_beta0_sgpr.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/1LDSB.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_hgemm_split_lds.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/sgemm_64bit_offset.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/dgemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_hsgemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_bfloat16s_gemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/c-tile-reuse-no-nll.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/cgemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_igemm_i8_split_lds.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_bfloat16_general_batch_gemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_igemm_i8_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_bfloat16_gemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/cgemm_asm_conjugate.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_hgemm_general_batch_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/hpa_hgemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/sgemm_64bit_offset_post.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/zgemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/sgemm_general_batch_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/zgemm_asm_conjugate.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/dgemm_gb_global_ldd.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/dgemm_large_offset.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/mfma/sgemm_asm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/denorm/mfma/hgemm_denorm_alt.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/denorm/mfma/bfloat16_denorm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/denorm/mfma/hgemm_denorm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/denorm/mfma/hgemm_denorm_alt_rnz.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/denorm/mfma/bfloat16_1k_denorm.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/4xi8gemm_hpa_hip_nn.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      },
+      "Tensile.Tests.yaml_only.test_config.test_config[Tensile/Tests/pre_checkin/direct_to_vgpr/dtv_sgemm_lite.yaml]": {
+        "type": "pytest.skip",
+        "message": "unconditional skip"
+      }
+    }
+  },
+  "unittest": {
+    "tests": 5488,
+    "passed": 5485,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 3,
+    "skip_details": {
+      "Tensile.Tests.unit.test_TensileCreateLibrary.test_WriteClientLibraryFromSolutions": {
+        "type": "pytest.skip",
+        "message": "System issue with find assempler called when assigning defaults"
+      },
+      "Tensile.Tests.unit.test_conv_problem.test_pad_4x1": {
+        "type": "pytest.skip",
+        "message": "no X filter, ZeroPadA has one entry and it is for Y filter"
+      },
+      "Tensile.Tests.unit.test_TensileCreateLibrary.test_filterProcessingErrors": {
+        "type": "pytest.skip",
+        "message": "Debugging function"
+      }
+    }
+  },
+  "host_library": {
+    "tests": 3513,
+    "passed": 3513,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "skip_details": {}
+  },
+  "host_environment": {
+    "OMP_THREAD_LIMIT": "8",
+    "OMP_NUM_THREADS": "8",
+    "OPENBLAS_NUM_THREADS": "8"
+  },
+  "test_inventory_missing": [],
+  "test_inventory_unexpected": [],
+  "project_skips_unchanged": true,
+  "artifacts": [
+    {
+      "path": "results/submission-prepr/exit-code.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "results/submission-prepr/host-library-summary.json",
+      "bytes": 2577,
+      "sha256": "9dcf968e2edc41654a36fbb4080c5e7831f25ac1d8b534ab19bef2fd8636fea6"
+    },
+    {
+      "path": "results/submission-prepr/host-library.log",
+      "bytes": 564026,
+      "sha256": "02aaaf3537c07102e767bb5699fce32e757257868d664f4891463141024d6092"
+    },
+    {
+      "path": "results/submission-prepr/host-library.xml",
+      "bytes": 1817473,
+      "sha256": "eb9179541ebd079e30a7f72c361ae95fd954e140504544e3c86721992ec3f4d2"
+    },
+    {
+      "path": "results/submission-prepr/invocation.json",
+      "bytes": 1395,
+      "sha256": "9f8e2a477a4a1fcfc522275c223fa490162b2a23e488e8e7a293e93797fdf200"
+    },
+    {
+      "path": "results/submission-prepr/pre-checkin.xml",
+      "bytes": 39450,
+      "sha256": "c7cee6585cb22db267a1bd4307cf8ceb6f292e36978f5d4748cdd7b90eb1f9fb"
+    },
+    {
+      "path": "results/submission-prepr/tox-result.json",
+      "bytes": 1702418,
+      "sha256": "84bd2e1e64575f407fcf41eda3c57b596bb1f4d548e821032fc7cfd5a24513d4"
+    },
+    {
+      "path": "results/submission-prepr/unit.xml",
+      "bytes": 751284,
+      "sha256": "de279605f0f042fd9e8eea14a9cf8af4a44057e6ff95a508143a820aa62ad10c"
+    }
+  ],
+  "command_overrides": {
+    "command": [
+      "tox",
+      "--workdir",
+      "/mnt/data/rocm-10783/tox",
+      "run",
+      "-m",
+      "prepr",
+      "--result-json",
+      "/mnt/data/rocm-10783/results/submission-prepr/tox-result.json",
+      "-x",
+      "testenv:hostlibtest.allowlist_externals=/bin/bash",
+      "-x",
+      "testenv:hostlibtest.commands=/bin/bash /mnt/data/rocm-10783/environment/submission-hostlibtest.sh",
+      "-x",
+      "testenv:ci.commands=invoke build-client {env:TENSILE_CLIENT_ARGS}\npy.test {toxinidir}/Tensile/Tests {[vars]options} -m pre_checkin --numprocesses=4 --global-parameters=CpuThreads=2 --basetemp=/mnt/data/rocm-10783/submission-ci-temp --junitxml=/mnt/data/rocm-10783/results/submission-prepr/pre-checkin.xml",
+      "-x",
+      "testenv:unittest.commands=coverage erase\npytest {toxinidir}/Tensile/Tests {[vars]options} -m unit --cov-append --cov=Tensile --cov-report=term --junitxml=/mnt/data/rocm-10783/results/submission-prepr/unit.xml",
+      "-x",
+      "testenv:ci.pass_env+=OMP_THREAD_LIMIT"
+    ],
+    "cwd": "/mnt/data/rocm-10783/source/shared/tensile",
+    "environment": {
+      "TENSILE_CLIENT_ARGS": "--gpu-targets=gfx1100 --no-build",
+      "OMP_THREAD_LIMIT": "8"
+    },
+    "override_reason": "Bound single-GPU build resources, select gfx1100, retain XML, and actually execute the full Debug host suite; the default hostlibtest tox command only builds and omits --run.",
+    "test_filters_changed": false
+  }
+}

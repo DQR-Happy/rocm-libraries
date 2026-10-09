@@ -1,0 +1,11 @@
+{
+  "changed_exact_records": 1,
+  "other_exact_records_unchanged": 14,
+  "fallback_contents_and_order_unchanged": true,
+  "byte_identical_cpu_binaries": {
+    "lib/librocblas.so.5": true,
+    "bin/rocblas-bench": true,
+    "bin/rocblas-test": true
+  },
+  "changed_kernel_packages": []
+}

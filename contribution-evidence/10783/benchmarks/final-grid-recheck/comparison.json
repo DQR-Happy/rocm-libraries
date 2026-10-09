@@ -1,0 +1,108 @@
+{
+  "summary": {
+    "case_count": 2,
+    "min_speedup": 1.0013128784652616,
+    "max_speedup": 1.0076302365606435,
+    "geomean_speedup": 1.00446659108164,
+    "slower_by_over_5_percent": 0,
+    "slower_by_over_10_percent": 0
+  },
+  "cases": [
+    {
+      "case": {
+        "function": "gemm_ex",
+        "a_type": "bf16_r",
+        "b_type": "bf16_r",
+        "c_type": "bf16_r",
+        "d_type": "bf16_r",
+        "compute_type": "f32_r",
+        "transA": "N",
+        "transB": "N",
+        "M": 768,
+        "N": 128,
+        "K": 64,
+        "lda": 768,
+        "ldb": 96,
+        "ldc": 800,
+        "ldd": 800,
+        "stride_a": 49152,
+        "stride_b": 12288,
+        "stride_c": 102400,
+        "stride_d": 102400,
+        "batch_count": 1,
+        "alpha": 1,
+        "beta": 0,
+        "outofplace": false
+      },
+      "baseline_us": 5.18722,
+      "candidate_us": 5.14794,
+      "speedup": 1.0076302365606435,
+      "baseline_samples_us": [
+        5.15406,
+        5.1409,
+        5.19022,
+        5.18722,
+        5.19922,
+        5.17453,
+        5.19537
+      ],
+      "candidate_samples_us": [
+        5.14914,
+        5.14794,
+        5.18218,
+        5.13482,
+        5.14993,
+        5.14282,
+        5.14441
+      ]
+    },
+    {
+      "case": {
+        "function": "gemm_ex",
+        "a_type": "bf16_r",
+        "b_type": "bf16_r",
+        "c_type": "bf16_r",
+        "d_type": "bf16_r",
+        "compute_type": "f32_r",
+        "transA": "N",
+        "transB": "N",
+        "M": 1536,
+        "N": 64,
+        "K": 64,
+        "lda": 1536,
+        "ldb": 96,
+        "ldc": 1568,
+        "ldd": 1568,
+        "stride_a": 98304,
+        "stride_b": 6144,
+        "stride_c": 100352,
+        "stride_d": 100352,
+        "batch_count": 1,
+        "alpha": 1,
+        "beta": 0,
+        "outofplace": false
+      },
+      "baseline_us": 4.82017,
+      "candidate_us": 4.81385,
+      "speedup": 1.0013128784652616,
+      "baseline_samples_us": [
+        4.81825,
+        4.82189,
+        4.82117,
+        4.82017,
+        4.82589,
+        4.81589,
+        4.81921
+      ],
+      "candidate_samples_us": [
+        4.83261,
+        4.81385,
+        4.82149,
+        4.81149,
+        4.81061,
+        4.81205,
+        4.82021
+      ]
+    }
+  ]
+}

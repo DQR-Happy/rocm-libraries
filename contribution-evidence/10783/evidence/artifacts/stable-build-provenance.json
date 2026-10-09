@@ -1,0 +1,51 @@
+{
+  "source_matches_review_package": true,
+  "build_header_matches_source": true,
+  "header_sha256": "0c8b7a0bdad5706bc144916ae8263e57a990dc61a53ace98626452466474e063",
+  "dynamic_rocblas_from_final_prefix": true,
+  "library_audit": {
+    "verified_files": 150,
+    "byte_identical_kernel_files": 74,
+    "equivalent_reordered_packages": [
+      {
+        "file": "gfx1100/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1100.co",
+        "proof": {
+          "baseline_package_sha256": "bf35753dbf714b2ca7cca9be56fcb1645420bda450b943e140c372ed8abb5b0b",
+          "candidate_package_sha256": "7af8955908cce2df62b9c6c2c128b24b0b03a2262c0c72a774fb07cccb69e821",
+          "identical_kernel_instruction_blocks": 330,
+          "identical_descriptors_except_verified_entry_offsets": 330,
+          "identical_runtime_metadata_records": 330,
+          "symbols_with_relocated_addresses": 162,
+          "runtime_equivalent": true
+        }
+      }
+    ],
+    "fallback_libraries_preserved": true,
+    "existing_solutions_preserved": true,
+    "exact_rows": 15,
+    "extra_solution_references": 10,
+    "batch_count_in_exact_key": true,
+    "changed_metadata_files": [
+      "gfx1100/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1100.dat",
+      "gfx1100/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1100.dat"
+    ],
+    "installed_files_match": true
+  }
+}

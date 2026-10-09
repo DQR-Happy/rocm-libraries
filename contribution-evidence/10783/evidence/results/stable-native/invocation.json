@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-10-09T11:42:11.740601+00:00",
+  "command": [
+    "/mnt/data/rocm-10783/candidate-stable/bin/rocblas-test",
+    "--gtest_filter=_/gemm_ex.*/quick_*bf16_rbf16_rbf16_rbf16_rf32_r_*:_/gemm_ex.*/pre_checkin_*bf16_rbf16_rbf16_rbf16_rf32_r_*:_/gemm_batched_ex.*/quick_*bf16_rbf16_rbf16_rbf16_rf32_r_*:_/gemm_batched_ex.*/pre_checkin_*bf16_rbf16_rbf16_rbf16_rf32_r_*:_/gemm_strided_batched_ex.*/quick_*bf16_rbf16_rbf16_rbf16_rf32_r_*:_/gemm_strided_batched_ex.*/pre_checkin_*bf16_rbf16_rbf16_rbf16_rf32_r_*:_/gemm_ex.*/quick_*bad_arg_bf16_r_*:_/gemm_batched_ex.*/quick_*bad_arg_bf16_r_*:_/gemm_strided_batched_ex.*/quick_*bad_arg_bf16_r_*:_/gemm_ex_get_solutions.*bf16_rbf16_rbf16_rbf16_rf32_r_*",
+    "--gtest_output=xml:/mnt/data/rocm-10783/results/stable-native/gtest.xml"
+  ],
+  "expected_tests": 27457,
+  "environment": {
+    "ROCBLAS_USE_HIPBLASLT": "0",
+    "LD_LIBRARY_PATH": "/mnt/data/rocm-10783/candidate-stable/lib:/opt/rocm-7.2.4/lib:/opt/rocm-7.2.4/lib/llvm/lib"
+  }
+}

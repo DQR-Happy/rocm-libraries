@@ -1,0 +1,15 @@
+Trim Trailing Whitespace.............................(no files to check)Skipped
+Fix End of Files.....................................(no files to check)Skipped
+Check Yaml...........................................(no files to check)Skipped
+Check for added large files..........................(no files to check)Skipped
+black................................................(no files to check)Skipped
+clang-format (C/C++/ObjC)............................(no files to check)Skipped
+bandit (unsafe yaml.load / B506).....................(no files to check)Skipped
+flatc (hipDNN).......................................(no files to check)Skipped
+cache key codegen (hipDNN)...........................(no files to check)Skipped
+Verify hipDNN support-claim sidecars (RFC 0015)......(no files to check)Skipped
+GTest naming conventions (MIOpen)....................(no files to check)Skipped
+MIOpen public/private header consistency.............(no files to check)Skipped
+MIOpen public/private header check self-tests........(no files to check)Skipped
+rocm_kpack pin is consistent (hipDNN)................(no files to check)Skipped
+cmake-lint...........................................(no files to check)Skipped

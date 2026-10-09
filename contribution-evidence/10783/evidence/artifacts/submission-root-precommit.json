@@ -1,0 +1,18 @@
+{
+  "command": [
+    "pre-commit",
+    "run",
+    "--files",
+    "shared/tensile/Tensile/Source/lib/include/Tensile/PropertyMatching.hpp",
+    "shared/tensile/HostLibraryTests/MultipleSolutionsPerSize_test.cpp",
+    "projects/rocblas/library/src/blas3/Tensile/Logic/asm_full/navi31/navi31_Cijk_Alik_Bljk_BBS_BH_Equality.yaml",
+    "projects/rocblas/library/src/blas3/Tensile/Logic/asm_full/navi31/navi31_Cijk_Alik_Bljk_BBS_BH_GB_Equality.yaml",
+    "projects/rocblas/library/src/blas3/Tensile/Logic/asm_full/navi31/navi31_Cijk_Ailk_Bljk_BBS_BH_Equality.yaml",
+    "projects/rocblas/library/src/blas3/Tensile/Logic/asm_full/navi31/navi31_Cijk_Ailk_Bljk_BBS_BH_GB_Equality.yaml",
+    "shared/tensile/HostLibraryTests/hip/CMakeLists.txt",
+    "shared/tensile/HostLibraryTests/hip/HipSolutionAdapter_test.cpp",
+    "shared/tensile/HostLibraryTests/configs/beta_only/hip_Cijk_Ailk_Bjlk_SB.yaml",
+    "shared/tensile/next-cmake/tests/hip/CMakeLists.txt"
+  ],
+  "returncode": 0
+}

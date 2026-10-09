@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/mnt/data/rocm-10783/candidate-stable/bin/rocblas-bench",
+    "--yaml",
+    "/mnt/data/rocm-10783/results/stable-target-dispatch/input.yaml"
+  ],
+  "environment": {
+    "ROCBLAS_USE_HIPBLASLT": "0",
+    "TENSILE_DB": "0x8000",
+    "LD_LIBRARY_PATH": "/mnt/data/rocm-10783/candidate-stable/lib:/opt/rocm-7.2.4/lib:/opt/rocm-7.2.4/lib/llvm/lib"
+  }
+}

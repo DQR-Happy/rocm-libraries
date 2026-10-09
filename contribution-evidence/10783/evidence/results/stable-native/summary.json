@@ -1,0 +1,16 @@
+{
+  "returncode": 0,
+  "gtest": {
+    "tests": "27457",
+    "failures": "0",
+    "disabled": "0",
+    "errors": "0",
+    "time": "51.505",
+    "timestamp": "2026-10-09T19:43:11.649",
+    "name": "AllTests"
+  },
+  "failures": [],
+  "skipped": [],
+  "missing": [],
+  "unexpected": []
+}
